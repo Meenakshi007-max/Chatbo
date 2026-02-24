@@ -66,9 +66,6 @@ poetry.lock
 # Cython debug symbols
 cython_debug/
 
-# VS Code settings
-.vscode/
-
 # Data, outputs, and vectorstore
 outputs/
 vectorstore/
