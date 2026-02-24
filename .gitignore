@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Outputs / generated data
+outputs/
+vector_index_local.pkl
+chroma_db/
+
+# PDF files (optional if you don't want to commit raw PDFs)
+data/*.pdf
+
+# Logs
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
