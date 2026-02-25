@@ -1,9 +1,11 @@
 *
 # Python
 __pycache__/
-*.py[cod]
 *$py.class
 .venv/
+!*.py
+!retrive.py
+
 
 # C extensions
 *.so
