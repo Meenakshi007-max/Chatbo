@@ -7,7 +7,7 @@ INPUT_FOLDER = "outputs"  # where your chunk JSONs are
 VECTOR_FILE = "vector_index_local.pkl"  # final output
 
 # Load local embedding model
-model = SentenceTransformer("all-MiniLM-L6-v2")  # offline model, ~384 dims
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")  # offline model, ~384 dims
 
 vector_index = []
 
